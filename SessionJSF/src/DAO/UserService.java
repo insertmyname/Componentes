@@ -110,6 +110,7 @@ public class UserService extends Service
 		desconectar();
 	}
 	
+	
 	public int compareCredentials(String username, String password) 
 	{
 		boolean entro = false;
@@ -147,6 +148,7 @@ public class UserService extends Service
 
 			if (entro == false) 
 			{
+				
 				System.out.println("Usuario o contrasena incorrectos");
 				exist = 0;
 			}
