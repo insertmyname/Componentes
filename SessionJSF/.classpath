@@ -19,7 +19,7 @@
 			<attribute name="owner.project.facets" value="jst.jsf"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Yohel/workspace/SessionJSF/src/mysql-connector-java-5.1.32-bin.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Yohel/workspace/SessionJSF/src/javax.mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Yohel/Documents/GitHub/Componentes/SessionJSF/src/mysql-connector-java-5.1.32-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Yohel/Documents/GitHub/Componentes/SessionJSF/src/javax.mail.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

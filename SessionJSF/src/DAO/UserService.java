@@ -78,16 +78,17 @@ public class UserService extends Service
 		{
 			Statement st = null;
 			st = getConexion().createStatement();
-			ResultSet rs = st
-					.executeQuery("SELECT ID, ROOT, NAME, PASS, EMAIL FROM USUARIO");
+			ResultSet rs = st.executeQuery("SELECT ID, ROOT, NAME, PASS, EMAIL, ORDERDATE FROM USUARIO");
 
-			while (rs.next()) {
+			while (rs.next()) 
+			{
 				System.out.println("==================================================");
 				System.out.println("ID: " + rs.getInt(1));
 				System.out.println("ROOT STATE: " + rs.getInt(2));
 				System.out.println("NAME: " + rs.getString(3));
 				System.out.println("PASS: " + rs.getString(4));
-				System.out.println("EMAIL:" + rs.getString(5));
+				System.out.println("EMAIL: " + rs.getString(5));
+				System.out.println("CREATION DATE: " + rs.getTimestamp(6));
 				System.out.println("==================================================");
 			}
 
