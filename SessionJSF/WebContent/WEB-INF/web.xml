@@ -33,7 +33,7 @@
     </servlet>
       <servlet-mapping>
         <servlet-name>StickyCaptcha</servlet-name>
-        <url-pattern>/stickyImg</url-pattern>
+        <url-pattern>stickyImg</url-pattern>
     </servlet-mapping>
         <servlet>
         <servlet-name>AudioCaptcha</servlet-name>
